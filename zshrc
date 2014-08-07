@@ -25,10 +25,12 @@ color_time_prompt
 # export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib/openmpi/lib
 
 # Pull in aliases
-source ~/.localaliases
 alias lsl=ls -l
 
 # Virtualenv
 export WORKON_HOME=~/envs
 source /usr/local/bin/virtualenvwrapper.sh 
+
+# Pull in local machine configuration
+source ~/.zshrc.local
 
